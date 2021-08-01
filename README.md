@@ -10,8 +10,8 @@ This app uses **Azure cognitive service** and **Python3** To translate a text fo
     `pip install requests`
     - Then install **uuid** from terminal:\
     `pip install uuid`
-    - Now open the code and add your subscription key in line 4\
-    - Also add your Region in line 9\
+    - Now open the code and add your subscription key in line 4
+    - Also add your Region in line 9
 
 - ## Start the app
 	First you need to start the app by running:\
