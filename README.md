@@ -27,6 +27,6 @@ This app uses **Azure cognitive service** and **Python3** To translate a text fo
     'to': ['ar', 'de', 'fr']
     }
    ```
-    1- in **from** you can change the language of the input text\
-    2- in **to** you can add as many languages as you want to translate the text into it\
+    1- in **params>from** you can change the language of the input text\
+    2- in **params>to** you can add as many languages as you want to translate the text into it\
     Here is the [list](https://docs.microsoft.com/en-us/azure/cognitive-services/translator/language-support) of languages to choose from
