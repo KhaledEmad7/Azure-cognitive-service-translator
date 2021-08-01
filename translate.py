@@ -1,12 +1,12 @@
 import requests, uuid, json
 
 # Add your subscription key and endpoint
-subscription_key = "subscription_key"
+subscription_key = "Your_subscription_key"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
-# Add your location, also known as region. The default is global.
+# Add your region, also known as location. The default is global.
 # This is required if using a Cognitive Services resource.
-location = "location(ex: eastus)"
+region = "Yout_region(ex: eastus)"
 
 path = '/translate'
 constructed_url = endpoint + path
@@ -22,7 +22,7 @@ constructed_url = endpoint + path
 
 headers = {
     'Ocp-Apim-Subscription-Key': subscription_key,
-    'Ocp-Apim-Subscription-Region': location,
+    'Ocp-Apim-Subscription-Region': region,
     'Content-type': 'application/json',
     'X-ClientTraceId': str(uuid.uuid4())
 }
